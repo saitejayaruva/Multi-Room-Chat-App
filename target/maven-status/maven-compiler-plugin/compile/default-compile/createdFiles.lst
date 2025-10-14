@@ -1,0 +1,6 @@
+com\chat\app\controller\HomeController.class
+com\chat\app\config\WebSocketConfig.class
+com\chat\app\controller\ChatController.class
+com\chat\app\model\ChatMessage.class
+com\chat\app\model\ChatRoom.class
+com\chat\app\AppApplication.class
