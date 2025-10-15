@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HomeController {
 
-    @GetMapping("/chat")
-    public String redirectToChatHtml() {
-        return "redirect:/chat.html";
+    @GetMapping("/")
+    public String home() {
+        return "chat"; // will look for chat.html inside templates/
     }
 }
